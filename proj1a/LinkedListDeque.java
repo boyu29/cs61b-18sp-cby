@@ -76,12 +76,24 @@ public class LinkedListDeque<T> {
     }
 
     public T get(int index) {
-        if (index >= size) return null;
+        if (isEmpty() || index >= size) return null;
         GenericNode p = sentinel.next;
         while (index != 0) {
             p = p.next;
             index -= 1;
         }
         return p.item;
+    }
+
+    public T getRecursive(int index) {
+        if (isEmpty() || index >= size) return null;
+        GenericNode p = sentinel.next;
+        return getHelper(index, p);
+    }
+
+    private T getHelper(int index, GenericNode p) {
+        if (index == 0) return p.item;
+        index--;
+        return getHelper(index, p.next);
     }
 }
