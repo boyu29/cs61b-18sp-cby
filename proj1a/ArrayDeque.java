@@ -150,6 +150,7 @@ public class ArrayDeque<T> {
         testAList.addLast(15);
         testAList.addLast(16);
         testAList.addLast(17);
+
         testAList.printDeque();
         testAList.removeLast();
         testAList.removeLast();
@@ -173,6 +174,7 @@ public class ArrayDeque<T> {
         System.out.println(testAList.size());
 
         testAList.printDeque();
+
         System.out.println(testAList.get(0));
         System.out.println(testAList.get(1));
         System.out.println(testAList.get(2));
