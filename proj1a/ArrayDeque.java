@@ -130,56 +130,56 @@ public class ArrayDeque<T> {
         System.out.println();
     }
 //
-//    public static void main(String[] args) {
-//        ArrayDeque<Integer> testAList = new ArrayDeque<>();
-//        testAList.addLast(0);
-//        testAList.addLast(1);
-//        testAList.addLast(2);
-//        testAList.addLast(3);
-//        testAList.addLast(4);
-//        testAList.addLast(5);
-//        testAList.addLast(6);
-//        testAList.addLast(7);
-//        testAList.addLast(8);
-//        testAList.addLast(9);
-//        testAList.addLast(10);
-//        testAList.addLast(11);
-//        testAList.addLast(12);
-//        testAList.addLast(13);
-//        testAList.addLast(14);
-//        testAList.addLast(15);
-//        testAList.addLast(16);
-//        testAList.addLast(17);
-//        testAList.printArray();
-//        testAList.removeLast();
-//        testAList.removeLast();
-//        testAList.removeLast();
-//        testAList.removeLast();
-//        testAList.removeLast();
-//        testAList.removeFirst();
-//        testAList.removeFirst();
-//        testAList.removeFirst();
-//        testAList.removeFirst();
-//        testAList.removeFirst();
-//        testAList.removeFirst();
-//        testAList.removeFirst();
-//        testAList.removeFirst();
-//        testAList.addFirst(0);
-//        testAList.addFirst(1);
-//        testAList.addFirst(2);
-//        testAList.addFirst(0);
-//        testAList.addFirst(3);
-//        System.out.println("------------");
-//        System.out.println(testAList.size());
-//
-//        testAList.printArray();
-//        System.out.println(testAList.get(0));
-//        System.out.println(testAList.get(1));
-//        System.out.println(testAList.get(2));
-//        System.out.println(testAList.get(3));
-//        System.out.println(testAList.get(4));
-//        System.out.println(testAList.get(5));
-//        System.out.println(testAList.get(6));
-//        System.out.println(testAList.get(7));
-//    }
+    public static void main(String[] args) {
+        ArrayDeque<Integer> testAList = new ArrayDeque<>();
+        testAList.addLast(0);
+        testAList.addLast(1);
+        testAList.addLast(2);
+        testAList.addLast(3);
+        testAList.addLast(4);
+        testAList.addLast(5);
+        testAList.addLast(6);
+        testAList.addLast(7);
+        testAList.addLast(8);
+        testAList.addLast(9);
+        testAList.addLast(10);
+        testAList.addLast(11);
+        testAList.addLast(12);
+        testAList.addLast(13);
+        testAList.addLast(14);
+        testAList.addLast(15);
+        testAList.addLast(16);
+        testAList.addLast(17);
+        testAList.printDeque();
+        testAList.removeLast();
+        testAList.removeLast();
+        testAList.removeLast();
+        testAList.removeLast();
+        testAList.removeLast();
+        testAList.removeFirst();
+        testAList.removeFirst();
+        testAList.removeFirst();
+        testAList.removeFirst();
+        testAList.removeFirst();
+        testAList.removeFirst();
+        testAList.removeFirst();
+        testAList.removeFirst();
+        testAList.addFirst(0);
+        testAList.addFirst(1);
+        testAList.addFirst(2);
+        testAList.addFirst(0);
+        testAList.addFirst(3);
+        System.out.println("------------");
+        System.out.println(testAList.size());
+
+        testAList.printDeque();
+        System.out.println(testAList.get(0));
+        System.out.println(testAList.get(1));
+        System.out.println(testAList.get(2));
+        System.out.println(testAList.get(3));
+        System.out.println(testAList.get(4));
+        System.out.println(testAList.get(5));
+        System.out.println(testAList.get(6));
+        System.out.println(testAList.get(7));
+    }
 }
